@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-color: black; /* Light OFF by default */
+    font-family: Arial, sans-serif;
+}
+
+.room {
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.on-btn {
+    background-color: yellow;
+}
+
+.off-btn {
+    background-color: gray;
+    color: white;
+  }
